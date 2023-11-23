@@ -1,0 +1,235 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEDER */
+header {
+    position: relative;
+    height: 140px;
+}
+
+header > nav
+{
+    background-image: linear-gradient(to right, rgba(81, 79, 76, 0.168), rgb(1, 1, 1) ), url("../images/fondos/fondo_barra-fondobl.jpeg");
+    background-size: 100%;
+    background-position: center;
+    height: 140px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-item:hover {
+    color: blue;
+    font: 20px;
+    transition: .5s;
+}
+
+
+.menu-item {
+    font-size: 20px;
+    color:#FFFF;
+    font-weight: 600;
+    background-color: rgb(2, 13, 27);
+    margin: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    
+}
+
+
+.nav-item:hover {
+    background-color: rgb(53, 58, 64);
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../images/fondos/fondo_motos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* FOOTER */
+footer {
+    background-image: linear-gradient(to right, rgba(81, 79, 76, 0.168), rgb(1, 1, 1) ), url('../images/fondos/fondo_barra-fondoneg.jpeg');
+
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-size: 100%;
+    background-position: center;
+}
+
+/* seccion información */
+.info{
+    margin-left: 150px;
+}
+
+
+/* seccion de redes sociales */
+.seguinos{
+    font-size: 20px;
+    color:#FFFF;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    margin: 12px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+.redes-item {
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.redes-ig{
+    background-image: url(../icons/MdiInstagram.svg);
+}
+.redes-fb{
+    background-image: url(../icons//MdiFacebook.svg);
+}
+.redes-x{
+    background-image: url(../icons/MingcuteSocialXLine.svg);
+}
+.redes-yt{
+    background-image: url(../icons/TypcnSocialYoutubeCircular.svg);
+}
+
+.pagina{
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: gainsboro;
+    margin-top: 80px;
+    width: 80%;
+}
+.titulo-pagina{
+    text-transform: uppercase;
+}
+.contenido-pagina{
+    color: #3e3f66;
+}
+
+/* paginas */
+/* .nosotros{ } */
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.telefonos{
+    flex-grow: 1;
+    flex-shrink: 2; 
+}
+.mapa{
+    margin-left: 10px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+/* .tienda{}  */
+
+.contenedor-moto{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.moto{
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .mi-cuenta{ } */
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 200px;
+}
+.entrada label{
+    margin-bottom: 10px;
+}
+
+.entrada input{
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(248, 249, 251);
+}
+
+.aciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aciones div{
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.acceder{
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.pass{
+    color: red;
+}
+.registrarse{
+    color:blue;
+    margin-right: 10px;
+}
