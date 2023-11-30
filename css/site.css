@@ -195,18 +195,7 @@ footer {
     flex-shrink: 1;
 }
 
-@media (max-width: 500px) {
-    .info{
-        display: none;
-    }
-    .seguinos{display: none;}
 
-    .img-fondo{display: none;}
-
-    .mapa{
-        display: none;
-    }
-}
 
 /* .tienda{}  */
 
@@ -270,4 +259,20 @@ footer {
 .registrarse{
     color:blue;
     margin-right: 10px;
+}
+
+@media (max-width: 500px) {
+    .info{
+        display: none;
+    }
+    .seguinos{display: none;}
+
+    .img-fondo{display: none;}
+
+    .mapa{
+        display: none;
+    }
+    .entrada{
+        margin-left: 10px;
+    }
 }
